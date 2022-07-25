@@ -123,7 +123,7 @@ main {
         background: rgba(lighten($secondary-color, 2), 0.8);
     }
 }
- 
+
 #main-footer {
     text-align: center;
     padding: 1rem;
@@ -134,7 +134,7 @@ main {
 
 // work projects
 .projects {
-  
+
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(1fr 1fr);
@@ -228,19 +228,18 @@ main {
 .dark-mode {
     background-color: rgb(26, 35, 59);
     color: white;
-  }
+}
 
 
-  
 
-  i {
+i {
     display: flex;
     margin-top: 3rem;
     margin-left: 3rem;
     padding: 1px 1px;
     cursor: pointer;
-  }
-  
+}
+
 
 
 
