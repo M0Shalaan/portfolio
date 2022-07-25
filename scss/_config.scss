@@ -3,8 +3,8 @@ $secondary-color: #9bcbff;
 $menu-color:#91acc7;
 $header-color: black;
 $show-home-img: true;
-$home-img: url(/dist/img/background.jpg);
-$portrait-img: url(/dist/img/portraitSmall.jpg);
+$home-img: url(../img/background.jpg);
+$portrait-img: url(../img/portraitSmall.jpg);
 $background-opacity: 0.5;
 
 @mixin easeOut {

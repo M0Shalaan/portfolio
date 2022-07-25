@@ -54,7 +54,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/dist/img/portraitSmall.jpg);
+      background: url(../img/portraitSmall.jpg);
       border-radius: 50%;
       border: solid 3px #858585;
       background-repeat: no-repeat; }
@@ -102,7 +102,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/background.jpg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -161,44 +161,28 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
-/* 
 .about-info {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-areas:
-        'bioimage bio bio'
-        'job1 job2 job3';
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-columns: repeat(3, 1fr); }
+  .about-info .bio-img {
+    border-radius: 50%;
+    margin: auto;
+    border: #9bcbff 3px solid;
+    grid-area: bioimage; }
+  .about-info .bio {
+    grid-area: bio;
+    font-size: 1.5rem; }
+  .about-info .job-1 {
+    grid-area: job1; }
+  .about-info .job-2 {
+    grid-area: job2; }
+  .about-info .job-3 {
+    grid-area: job3; }
+  .about-info .job {
+    background: rgba(165, 208, 255, 0.8); }
 
-    .bio-img {
-        border-radius: 50%;
-        margin: auto;
-        border: $secondary-color 3px solid;
-        grid-area: bioimage;
-    }
-
-    .bio {
-        grid-area: bio;
-        font-size: 1.5rem;
-    }
-
-    .job-1 {
-        grid-area: job1;
-    }
-
-    .job-2 {
-        grid-area: job2;
-    }
-
-    .job-3 {
-        grid-area: job3;
-    }
-
-    .job {
-        background: rgba(lighten($secondary-color, 2), 0.8);
-    }
-}
- */
 #main-footer {
   text-align: center;
   padding: 1rem;
